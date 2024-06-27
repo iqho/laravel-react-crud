@@ -1,0 +1,46 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-VIOrKDdy.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Index.jsx": {
+    "file": "assets/Index-dq0Ake6-.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Show.jsx": {
+    "file": "assets/Show-B6I3f6Qu.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-C_Yz8gzk.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/Index.jsx",
+      "resources/js/Pages/Show.jsx"
+    ]
+  }
+}
