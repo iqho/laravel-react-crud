@@ -5,8 +5,26 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/js/Pages/Create.jsx": {
+    "file": "assets/Create-C953zor2.js",
+    "name": "Create",
+    "src": "resources/js/Pages/Create.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Edit.jsx": {
+    "file": "assets/Edit-CTugF4tu.js",
+    "name": "Edit",
+    "src": "resources/js/Pages/Edit.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-VIOrKDdy.js",
+    "file": "assets/Home-EpuGRlf7.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
@@ -15,7 +33,7 @@
     ]
   },
   "resources/js/Pages/Index.jsx": {
-    "file": "assets/Index-dq0Ake6-.js",
+    "file": "assets/Index-kYgvyRix.js",
     "name": "Index",
     "src": "resources/js/Pages/Index.jsx",
     "isDynamicEntry": true,
@@ -24,7 +42,7 @@
     ]
   },
   "resources/js/Pages/Show.jsx": {
-    "file": "assets/Show-B6I3f6Qu.js",
+    "file": "assets/Show-DSRBcrcP.js",
     "name": "Show",
     "src": "resources/js/Pages/Show.jsx",
     "isDynamicEntry": true,
@@ -33,11 +51,13 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-C_Yz8gzk.js",
+    "file": "assets/app-CFVAio4k.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
     "dynamicImports": [
+      "resources/js/Pages/Create.jsx",
+      "resources/js/Pages/Edit.jsx",
       "resources/js/Pages/Home.jsx",
       "resources/js/Pages/Index.jsx",
       "resources/js/Pages/Show.jsx"

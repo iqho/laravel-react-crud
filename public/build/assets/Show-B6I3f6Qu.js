@@ -1,1 +1,0 @@
-import{j as r}from"./app-C_Yz8gzk.js";function j({post:e,backUrl:s}){return r.jsxs(r.Fragment,{children:[r.jsx("a",{href:s,children:"Back"})," ",r.jsx("br",{}),r.jsx("h1",{children:"My Super Blog 3"}),r.jsx("hr",{}),e.id," ",r.jsx("br",{}),e.title,r.jsx("br",{}),e.body]})}export{j as default};

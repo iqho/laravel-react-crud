@@ -1,1 +1,0 @@
-import{j as r}from"./app-C_Yz8gzk.js";function s({posts:n}){return r.jsxs(r.Fragment,{children:[r.jsx("h1",{children:"My Super Blog"}),r.jsx("hr",{}),n&&n.map(e=>r.jsxs("div",{children:[r.jsx("h2",{children:e.title}),r.jsx("p",{children:e.body})]},e.id))]})}export{s as default};
