@@ -7,7 +7,7 @@ use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
     return Inertia::render('Home', [
-        'posts' => Post::get()->take(1)
+        'posts' => Post::all()
     ]);
 });
 

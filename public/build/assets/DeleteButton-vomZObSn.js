@@ -1,0 +1,1 @@
+import{j as o,d as r}from"./app-CZ7i-uAX.js";function a({deleteUrl:e}){const t=n=>{n.preventDefault(),window.confirm("Are you sure you want to delete this post?")&&r.Inertia.delete(e)};return o.jsx("button",{onClick:t,className:"btn btn-danger py-0",children:"Delete"})}export{a as default};

@@ -1,1 +1,0 @@
-import{j as r}from"./app-CFVAio4k.js";function n({post:e,backUrl:s}){return r.jsx(r.Fragment,{children:r.jsxs("div",{className:"container",children:[r.jsx("a",{href:s,children:"Back"})," ",r.jsx("br",{}),r.jsx("h1",{children:"My Super Blog"}),r.jsx("hr",{}),e.id," ",r.jsx("br",{}),e.title,r.jsx("br",{}),e.body]})})}export{n as default};

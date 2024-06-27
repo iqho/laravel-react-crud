@@ -20,6 +20,7 @@ class PostController extends Controller
                 'body' => $post->body,
                 'showUrl' => route('posts.show', $post),
                 'editUrl' => route('posts.edit', $post),
+                'deleteUrl' => route('posts.destroy', $post),
             ];
         });
 
@@ -113,6 +114,8 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        //
+        $post->delete();
+
+        return redirect()->route('posts.index');
     }
 }

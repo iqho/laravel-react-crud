@@ -6,7 +6,7 @@
     "isEntry": true
   },
   "resources/js/Pages/Create.jsx": {
-    "file": "assets/Create-C953zor2.js",
+    "file": "assets/Create-CRIRzIDI.js",
     "name": "Create",
     "src": "resources/js/Pages/Create.jsx",
     "isDynamicEntry": true,
@@ -15,7 +15,7 @@
     ]
   },
   "resources/js/Pages/Edit.jsx": {
-    "file": "assets/Edit-CTugF4tu.js",
+    "file": "assets/Edit-D2R51ZNJ.js",
     "name": "Edit",
     "src": "resources/js/Pages/Edit.jsx",
     "isDynamicEntry": true,
@@ -24,7 +24,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-EpuGRlf7.js",
+    "file": "assets/Home-DgBfgfBx.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
@@ -33,16 +33,17 @@
     ]
   },
   "resources/js/Pages/Index.jsx": {
-    "file": "assets/Index-kYgvyRix.js",
+    "file": "assets/Index-CGj3RbXR.js",
     "name": "Index",
     "src": "resources/js/Pages/Index.jsx",
     "isDynamicEntry": true,
     "imports": [
-      "resources/js/app.jsx"
+      "resources/js/app.jsx",
+      "resources/js/Pages/components/DeleteButton.jsx"
     ]
   },
   "resources/js/Pages/Show.jsx": {
-    "file": "assets/Show-DSRBcrcP.js",
+    "file": "assets/Show-Dvxxbhqx.js",
     "name": "Show",
     "src": "resources/js/Pages/Show.jsx",
     "isDynamicEntry": true,
@@ -50,8 +51,17 @@
       "resources/js/app.jsx"
     ]
   },
+  "resources/js/Pages/components/DeleteButton.jsx": {
+    "file": "assets/DeleteButton-vomZObSn.js",
+    "name": "DeleteButton",
+    "src": "resources/js/Pages/components/DeleteButton.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
   "resources/js/app.jsx": {
-    "file": "assets/app-CFVAio4k.js",
+    "file": "assets/app-CZ7i-uAX.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -60,7 +70,8 @@
       "resources/js/Pages/Edit.jsx",
       "resources/js/Pages/Home.jsx",
       "resources/js/Pages/Index.jsx",
-      "resources/js/Pages/Show.jsx"
+      "resources/js/Pages/Show.jsx",
+      "resources/js/Pages/components/DeleteButton.jsx"
     ]
   }
 }
